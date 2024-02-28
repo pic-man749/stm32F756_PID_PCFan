@@ -60,7 +60,6 @@ dkms.conf
 .settings/*
 *.ld
 *.launch
-*.ioc
 /Core/Startup/*
 /Core/Inc/stm32l4xx_hal_conf.h
 /Core/Inc/stm32l4xx_it.h

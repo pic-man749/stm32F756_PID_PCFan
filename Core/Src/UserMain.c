@@ -51,7 +51,7 @@ double proportionalCtrl(double e){
 }
 // 積分制御
 double integralCtrl(double e, double le, double dt){
-  double sum = 0;
+  static double sum = 0;
   if(isTargetRpmUpdated){
     sum = 0;
     isTargetRpmUpdated = false;
